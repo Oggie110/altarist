@@ -1,19 +1,20 @@
 import styles from '../styles/cards.module.css';
-import { useState } from 'react';
 
 interface CardProps {
   frontImage: string;
   backImage: string;
   label: string;
+  flipped: boolean;
+  onFlip: () => void;
 }
 
-export default function Card({ frontImage, backImage, label }: CardProps) {
-  const [flipped, setFlipped] = useState(false);
+export default function Card({ frontImage, backImage, label, flipped, onFlip }: CardProps) {
+  const cardClassName = `${styles.cardContainer} ${flipped ? styles.isFlipped : ''}`;
 
   return (
     <div
-      className={`${styles.cardContainer} ${flipped ? styles.isFlipped : ''}`}
-      onClick={() => setFlipped(!flipped)}
+      className={cardClassName}
+      onClick={onFlip}
       aria-label={`Card: ${label} (click to flip)`}
     >
       <div className={styles.cardFlipper}>

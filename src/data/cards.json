@@ -1,1 +1,203 @@
-{}
+[
+    {
+      "id": "veil",
+      "title": "The Veil",
+      "technique": "Box Breathing",
+      "deck": "Tranquility Arcana",
+      "difficulty": "Beginner",
+      "mantra": "You are between moments.",
+      "cycle": { "inhale": 4, "hold1": 4, "exhale": 4, "hold2": 4 },
+      "cyclePattern": "4-4-4-4",
+      "steps": [
+        "Sit upright, shoulders soft.",
+        "Inhale quietly through the nose for 4 counts.",
+        "Hold for 4 counts.",
+        "Exhale for 4 counts.",
+        "Hold empty for 4 counts.",
+        "Repeat 4 rounds."
+      ],
+      "notes": "Calm focus, vagal tone improvement. Entry-level technique for daily draw."
+    },
+    {
+      "id": "gate",
+      "title": "The Descent",
+      "technique": "4-7-8 Breathing",
+      "deck": "Tranquility Arcana",
+      "difficulty": "Beginner",
+      "mantra": "Sleep calls, anxiety falls.",
+      "cycle": { "inhale": 4, "hold1": 7, "exhale": 8, "hold2": 0 },
+      "cyclePattern": "4-7-8-0",
+      "steps": [
+        "Inhale quietly for 4.",
+        "Hold breath for 7.",
+        "Exhale audibly for 8.",
+        "Repeat 4 rounds."
+      ],
+      "notes": "Down-shift to sleep; activates parasympathetic nervous system."
+    },
+    {
+      "id": "sigh",
+      "title": "The Sigh",
+      "technique": "Physiological Sigh",
+      "deck": "Tranquility Arcana",
+      "difficulty": "Beginner",
+      "mantra": "One breath, instant calm.",
+      "cycle": { "inhale": "2 quick", "hold1": 0, "exhale": 6, "hold2": 0 },
+      "cyclePattern": "Double-inhale + long exhale",
+      "steps": [
+        "Two quick nasal inhales (second is shorter).",
+        "Long sighing exhale through mouth for 6.",
+        "Pause 2 s; repeat up to 10 times when stress spikes."
+      ],
+      "notes": "Instant calm activation."
+    },
+    {
+      "id": "still",
+      "title": "The Still",
+      "technique": "Equal Ratio",
+      "deck": "Vital Ember",
+      "difficulty": "Beginner",
+      "mantra": "Steady rhythm, warrior power.",
+      "cycle": { "inhale": 6, "hold1": 0, "exhale": 6, "hold2": 0 },
+      "cyclePattern": "6-6",
+      "steps": [
+        "Inhale for 6 counts.",
+        "Exhale for 6 counts.",
+        "Continue 4–6 min."
+      ],
+      "notes": "Builds steady warrior focus and rhythmic power."
+    },
+    {
+      "id": "mirror",
+      "title": "The Blaze",
+      "technique": "Breath of Fire",
+      "deck": "Vital Ember",
+      "difficulty": "Intermediate",
+      "mantra": "Cleansing fire, awakening power.",
+      "cycle": { "inhale": 1, "hold1": 0, "exhale": 1, "hold2": 0 },
+      "cyclePattern": "Rapid exhales",
+      "steps": [
+        "Quick belly-pump exhales through nose.",
+        "Inhales happen passively.",
+        "Start 30 s, rest. Build to 2 min."
+      ],
+      "notes": "Rapid exhales flush lymph, create alertness."
+    },
+    {
+      "id": "roar",
+      "title": "The Roar",
+      "technique": "Lion’s Breath",
+      "deck": "Vital Ember",
+      "difficulty": "Beginner",
+      "mantra": "Roar with the fire of life.",
+      "cycle": { "inhale": 4, "hold1": 0, "exhale": "roar", "hold2": 0 },
+      "cyclePattern": "Forceful exhale",
+      "steps": [
+        "Inhale through nose for 4.",
+        "Open mouth, tongue out; exhale forcefully with a ‘haaa’.",
+        "Repeat 5–7 times."
+      ],
+      "notes": "Playful release of tension; energizing."
+    },
+    {
+      "id": "echo",
+      "title": "The Bridge",
+      "technique": "Alternate-Nostril",
+      "deck": "Balance Sigils",
+      "difficulty": "Beginner",
+      "mantra": "Two paths, one breath, perfect harmony.",
+      "cycle": { "inhale": 4, "hold1": 0, "exhale": 4, "hold2": 0 },
+      "cyclePattern": "4-0-4-0 each nostril",
+      "steps": [
+        "Close right nostril; inhale left 4.",
+        "Close left; exhale right 4.",
+        "Inhale right 4.",
+        "Close right; exhale left 4.",
+        "Repeat 5–7 cycles."
+      ],
+      "notes": "Balances hemispheres, anxiety reduction."
+    },
+    {
+      "id": "bloom",
+      "title": "The Resonance",
+      "technique": "Coherent Breathing",
+      "deck": "Balance Sigils",
+      "difficulty": "Beginner",
+      "mantra": "Heart and breath in harmony.",
+      "cycle": { "inhale": 5, "hold1": 0, "exhale": 5, "hold2": 0 },
+      "cyclePattern": "~5.5-5.5",
+      "steps": [
+        "Inhale through nose for 5.5 s.",
+        "Exhale for 5.5 s.",
+        "Continue 5 min."
+      ],
+      "notes": "HRV optimization and deep relaxation."
+    },
+    {
+      "id": "horizon",
+      "title": "The Release",
+      "technique": "Extended Exhale",
+      "deck": "Balance Sigils",
+      "difficulty": "Beginner",
+      "mantra": "Let go with every breath.",
+      "cycle": { "inhale": 4, "hold1": 0, "exhale": 8, "hold2": 0 },
+      "cyclePattern": "4-0-8-0",
+      "steps": [
+        "Inhale for 4.",
+        "Exhale slowly for 8.",
+        "Repeat 10 rounds."
+      ],
+      "notes": "Stress relief; longer exhale calms the nervous system."
+    },
+    {
+      "id": "void",
+      "title": "The Void",
+      "technique": "Kumbhaka (Retention)",
+      "deck": "Eclipse Deck",
+      "difficulty": "Advanced",
+      "mantra": "In stillness, find infinity.",
+      "cycle": { "inhale": 5, "hold1": 20, "exhale": 8, "hold2": 5 },
+      "cyclePattern": "Inhale-hold-exhale-hold",
+      "steps": [
+        "Inhale 5 counts.",
+        "Hold up to 20 counts (no strain).",
+        "Exhale 8 counts.",
+        "Rest empty 5 counts.",
+        "Repeat 5 cycles."
+      ],
+      "notes": "Mind stillness & CO₂ tolerance building. Advanced practice."
+    },
+    {
+      "id": "pulse",
+      "title": "The Surge",
+      "technique": "Power Breath / DMT",
+      "deck": "Eclipse Deck",
+      "difficulty": "Advanced",
+      "mantra": "Through intensity, transcendence.",
+      "cycle": { "inhale": 2, "hold1": 0, "exhale": 2, "hold2": "∞" },
+      "cyclePattern": "2-2-hold",
+      "steps": [
+        "2-2 intense mouth breaths for 1 min.",
+        "Final exhale; hold empty until urge.",
+        "Inhale, hold 15 s, exhale. Rest."
+      ],
+      "notes": "Cathartic transformation for trained practitioners."
+    },
+    {
+      "id": "ember",
+      "title": "The Forge",
+      "technique": "Wim Hof / Tummo",
+      "deck": "Eclipse Deck",
+      "difficulty": "Intermediate",
+      "mantra": "Fire within, strength without.",
+      "cycle": { "inhale": 2, "hold1": 0, "exhale": 2, "hold2": "∞" },
+      "cyclePattern": "30 deep + hold",
+      "steps": [
+        "30–40 deep breaths, in through nose, out relaxed.",
+        "Exhale fully; hold empty.",
+        "When urge, inhale, hold 15 s, exhale. Repeat 3 rounds."
+      ],
+      "notes": "Alkalizing, heat-building breath with retention."
+    }
+  ]
+  

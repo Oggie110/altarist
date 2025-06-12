@@ -16,14 +16,16 @@ export default function Home() {
 
       <main className={styles.container}>
         <header className={styles.headerContent}>
-          <h1>Altarist</h1>
+          <img src="/images/altarist_text_logo_1.png" alt="Altarist Text Logo" style={{ maxWidth: '476px', width: '100%', height: 'auto', display: 'block', margin: '0 auto', borderRadius: '12px', boxShadow: '0 2px 12px 0 rgba(44,62,80,0.08)' }} />
           <p>Transform breathwork into an immersive daily practice with sacred ritual cards</p>
         </header>
 
         <CardDeck />
 
         <footer className={styles.footerContent}>
-          <button className={styles.ctaButton}>Enter the Altar</button>
+          <button className={styles.ctaButton}>
+            Enter the Altar
+          </button>
           <p className={styles.ctaSubtext}>Draw your first ritual card and discover the power of sacred breath</p>
         </footer>
       </main>
